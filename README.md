@@ -8,15 +8,15 @@ accurracy.m computes the confusion matrix and gives the accuracy of the model.
 
 with different de-fuzzification techniques we get the below accuracies:\
 main.fis:\
-som 		  76.4293\
+som\t\t76.4293\
 centroid	77.0812\
 mom			  76.5296\
 bisector	76.7302\
-lom			  76.5797\
+lom			  76.5797
 
 trial.fis :\
 som 		  75.8655\
 centroid	76.3673\
 mom			  75.9659\
 bisector	75.9659\
-lom			  62.7195\
+lom			  62.7195
