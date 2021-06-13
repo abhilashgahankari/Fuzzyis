@@ -1,0 +1,35 @@
+if (PctIlleg <= 1.5) and (PctKids2Par > 3.5) and (PctSpeakEnglOnly > 1.5) and (PctEmplProfServ <= 3.5) then class: 1 (proba: 99.82%) 
+if (PctIlleg <= 1.5) and (PctKids2Par <= 3.5) and (blackPerCap <= 1.5) and (racepctblack <= 1.5) then class: 1 (proba: 86.54%) 
+if (PctIlleg <= 1.5) and (PctKids2Par <= 3.5) and (blackPerCap > 1.5) and (OwnOccLowQuart <= 2.5) then class: 1 (proba: 95.59%) 
+if (PctIlleg > 1.5) and (PctIlleg <= 2.5) and (racePctWhite <= 3.5) and (MedOwnCostPctIncNoMtg <= 2.5) then class: 3 (proba: 50.43%) 
+if (PctIlleg > 1.5) and (PctIlleg > 2.5) and (PctKids2Par > 1.5) and (PctSameCity85 > 1.5) then class: 3 (proba: 50.79%) 
+if (PctIlleg > 1.5) and (PctIlleg <= 2.5) and (racePctWhite > 3.5) and (HousVacant <= 2.5) then class: 1 (proba: 76.23%) 
+if (PctIlleg > 1.5) and (PctIlleg > 2.5) and (PctKids2Par <= 1.5) and (PctHousLess3BR <= 3.5) then class: 3 (proba: 44.23%) 
+if (PctIlleg <= 1.5) and (PctKids2Par <= 3.5) and (blackPerCap > 1.5) and (OwnOccLowQuart > 2.5) then class: 1 (proba: 88.73%) 
+if (PctIlleg > 1.5) and (PctIlleg <= 2.5) and (racePctWhite <= 3.5) and (MedOwnCostPctIncNoMtg > 2.5) then class: 1 (proba: 74.14%) 
+if (PctIlleg <= 1.5) and (PctKids2Par > 3.5) and (PctSpeakEnglOnly > 1.5) and (PctEmplProfServ > 3.5) then class: 1 (proba: 96.88%) 
+if (PctIlleg <= 1.5) and (PctKids2Par <= 3.5) and (blackPerCap <= 1.5) and (racepctblack > 1.5) then class: 1 (proba: 50.0%) 
+if (PctIlleg > 1.5) and (PctIlleg > 2.5) and (PctKids2Par <= 1.5) and (PctHousLess3BR > 3.5) then class: 2 (proba: 90.91%) 
+if (PctIlleg > 1.5) and (PctIlleg > 2.5) and (PctKids2Par > 1.5) and (PctSameCity85 <= 1.5) then class: 1 (proba: 83.33%) 
+if (PctIlleg > 1.5) and (PctIlleg <= 2.5) and (racePctWhite > 3.5) and (HousVacant > 2.5) then class: 2 (proba: 100.0%) 
+if (PctIlleg <= 1.5) and (PctKids2Par > 3.5) and (PctSpeakEnglOnly <= 1.5) and (PctRecImmig5 > 3.5) then class: 1 (proba: 100.0%) 
+if (PctIlleg <= 1.5) and (PctKids2Par > 3.5) and (PctSpeakEnglOnly <= 1.5) and (PctRecImmig5 <= 3.5) then class: 3 (proba: 100.0%) 
+
+
+range [0-1]
+discretized values	0	1.5		2.5		3.5		4
+actual values		0	0.375	0.625	0.875	1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
